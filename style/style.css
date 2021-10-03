@@ -395,6 +395,7 @@ footer {
 
 .footer__column ul li {
   list-style-type: none;
+  margin-bottom: 12px;
 }
 
 .footer__column ul li a {
@@ -407,7 +408,6 @@ footer {
   color: #F9F9F9;
   -webkit-font-feature-settings: 'liga' off;
           font-feature-settings: 'liga' off;
-  margin-bottom: 12px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
