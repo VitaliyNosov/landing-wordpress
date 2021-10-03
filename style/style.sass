@@ -1,0 +1,354 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+.wrapper
+    width: 100%
+
+.container
+    max-width: 1200px
+    margin: 0 auto
+    // border: 1px solid red
+
+header 
+    background-color: #000 
+    color: #fff
+
+.header 
+    display: flex
+    justify-content: space-between
+    padding-top: 20px
+    padding-bottom: 20px
+
+.menu 
+    width: 32%
+    margin-left: 8%
+    padding-left: 2%
+    padding-right: 1%
+    display: flex
+    justify-content: space-between
+    // border: 1px solid red
+    a 
+        text-decoration: none
+        color: #fff
+        font-family: 'Manrope'
+        font-size: 14px
+        font-style: normal
+        font-weight: bold
+        line-height: 20px
+        margin-top: 4px
+        transition: 0.4s
+        &:hover
+            color: #9B44FF
+            cursor: pointer
+
+.button__login
+    background-color: #EFE2FD
+    color: #9B44FF
+    border-radius: 5px
+    border: none
+    margin-right: 14px
+    padding: 6px 28px 
+    font-family: 'Manrope'
+    font-size: 14px 
+    transition: 0.4s
+    &:hover
+        background-color: #9B44FF
+        color: #fff 
+        cursor: pointer
+
+.butoon__singup
+    background-color: #9B44FF
+    color: #fff 
+    border: none
+    border-radius: 5px
+    padding: 6px 24px 
+    font-family: 'Manrope'
+    font-size: 14px 
+    transition: 0.4s
+    &:hover
+        background-color: #EFE2FD
+        color: #9B44FF
+        cursor: pointer
+
+.section__content
+    background-color: #000
+
+.content
+    width: 100%
+    padding-bottom: 168px
+    display: flex
+    justify-content: space-between
+
+.content__info
+    margin-top: 255px
+    h1
+        color: #fff 
+        font-family: 'Manrope'
+        font-style: normal
+        font-weight: bold
+        font-size: 70px
+        line-height: 80px
+        margin: 0px
+    p 
+        color: #fff 
+        font-family: 'Manrope'
+        font-style: normal 
+        font-weight: normal 
+        font-size: 18px
+        line-height: 32px
+    button 
+        border: none
+        background-color: #9B44FF
+        color: #fff 
+        font-family: 'Manrope'
+        font-size: 16px
+        padding: 16px 55px 
+        border-radius: 5px
+        transition: 0.4s 
+        &:hover
+            background-color: #fff 
+            color: #9B44FF
+            cursor: pointer
+
+.content__images 
+    margin-top: 170px
+    img 
+        max-width: 100%
+
+.section__info 
+    background-color: #fff    
+
+.info 
+    margin-top: 180px
+    h2 
+        font-family: 'Manrope'
+        font-style: normal 
+        font-weight: 800 
+        font-size: 40px
+        line-height: 64px
+        font-feature-settings: 'liga' off 
+        color: #000
+
+.info__content
+    display: flex
+    justify-content: space-between
+    margin-top: 77px
+
+.block__content
+    width: 21%
+    img 
+        margin-bottom: 16px
+        max-width: 100%
+    h3 
+        margin: 0px
+        font-family: 'Manrope'
+        font-style: 'normal'
+        font-weight: bold
+        font-size: 18px
+        line-height: 28px
+        font-feature-settings: 'liga' off 
+        color: #000
+    p 
+        font-family: 'Manrope'
+        font-style: 'normal'
+        font-size: 16px
+        line-height: 26px
+        font-feature-settings: 'liga' off 
+        color: #000
+        margin: 0px
+
+.slider 
+    h3 
+        font-family: 'Manrope'
+        font-style: normal 
+        font-weight: 800 
+        font-size: 40px
+        line-height: 64px
+        font-feature-settings: 'liga' off
+        color: #000
+        margin-top: 152px
+
+.multiple-items
+    width: 72%
+    margin: 0 auto
+    padding-top: 40px
+
+.slider__item
+    // border: 1px solid green
+    width: 225px
+    height: 450px
+    img 
+        max-width: 100%
+
+.form 
+    display: flex
+    justify-content: space-between
+    margin-top: 155px
+    padding-bottom: 135px
+
+.form__image
+    width: 50%
+    min-height: 607px
+    background: #000
+    background-image: url(../img/MockCard.png)
+    background-repeat: no-repeat
+    background-position: right 0% bottom 28%
+    border-radius: 50%
+    // overflow: hidden
+    position: relative
+    img
+        max-width: 100%
+        position: absolute
+        top: 15%
+        left: 12%
+        right: 0%
+        bottom: -6%
+
+.form__block
+    width: 40%
+    margin-top: 100px
+    h2 
+        font-family: 'Manrope'
+        font-style: normal
+        font-weight: 800 
+        font-size: 40px
+        line-height: 64px
+        font-feature-settings: 'liga' off
+        color: #000
+
+form 
+    display: flex
+    flex-direction: column
+    input 
+        height: 45px
+        padding-left: 3%
+        font-family: 'Manrope'
+        font-style: normal 
+        font-weight: 500 
+        font-size: 15px
+        line-height: 28px
+        font-feature-settings: 'liga' off
+        color: #A8A8A8
+        border-radius: 5px
+        border: none
+        background-color: #F9F9F9
+        margin-top: 10px
+    button 
+        border: none 
+        background-color: #8C30F5
+        color: #fff 
+        font-family: 'Manrope'
+        font-style: normal 
+        font-weight: 600 
+        font-size: 18px
+        line-height: 30px
+        font-feature-settings: 'liga' off
+        padding: 13px
+        border-radius: 5px
+        margin-top: 15px
+        transition: 0.4s
+        border: 1px solid #8C30F5
+        &:hover
+            background-color: #fff
+            color: #8C30F5
+            cursor: pointer
+            border: 1px solid #8C30F5
+
+footer 
+    background-color: #000 
+    color: #fff
+.footer__body
+    max-width: 993px
+    margin: 0 auto
+    // border: 1px solid #fff
+    display: flex
+    flex-direction: column
+
+.column__block
+    margin-top: 70px
+    display: flex
+    justify-content: space-between
+
+.footer__column
+    // border: 1px solid #fff
+    width: 16%
+    h3 
+        font-family: 'Manrope'
+        font-style: normal
+        font-weight: 500 
+        font-size: 18px
+        line-height: 28px
+        color: #fff
+        font-feature-settings: 'liga' off
+        margin: 0px
+    ul
+        margin: 22px 0px
+        padding: 0px
+        li 
+            list-style-type: none
+            a
+                text-decoration: none
+                font-family: 'Manrope'
+                font-style: normal
+                font-weight: normal 
+                font-size: 14px
+                line-height: 24px
+                color: #F9F9F9
+                font-feature-settings: 'liga' off
+                margin-bottom: 12px
+                transition: 0.4s
+                &:hover
+                    color: #8C30F5
+                    cursor: pointer
+
+.commun__company
+
+.link__google
+    width: 100%
+    height: 50px
+    margin-top: 32px
+    background-image: url(../img/GooglePlayBadge.png)
+    background-repeat: no-repeat
+    background-size: 100% 
+
+.link__apple
+    width: 100%
+    height: 50px
+    margin-top: 15px
+    background-image: url(../img/AppStoreBadge.png)
+    background-repeat: no-repeat
+    background-size: 100%
+
+.social__block
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-top: 30px
+    // border: 1px solid green
+    p 
+        font-family: 'Manrope'
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 24px
+        font-feature-settings: 'liga' off 
+        color: #D9DBE1
+
+.icons
+    display: flex
+
+.icon 
+    width: 32px
+    height: 32px
+    border-radius: 50%
+    padding: 1.5px
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #191919
+    color: #C6C6C6
+    font-size: 17px
+    margin-left: 20px
+    transition: 0.4s
+    &:hover
+        background-color: #8C30F5
