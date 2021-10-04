@@ -548,6 +548,9 @@ footer {
   .menu {
     width: 50%;
   }
+  .menu__items {
+    margin-left: 0px;
+  }
   .social__block {
     padding-bottom: 50px;
   }
@@ -636,6 +639,9 @@ footer {
   }
   .menu__items a {
     margin: 5px;
+  }
+  .button__block {
+    margin-top: 10%;
   }
   .content {
     display: -webkit-box;
